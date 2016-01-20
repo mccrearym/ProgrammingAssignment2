@@ -1,3 +1,6 @@
+## These functions allow the user to look up the inverse of a matrix if already calculated
+## Otherwise it will compute and return the inverse of a matrix.
+
 ## makeCacheMatrix creates a special "matrix" object that can cache its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
